@@ -34,6 +34,12 @@
     .hiddeniframe {
       display: none
     }
+    
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
   </style>
 </head>
 <!--fim da cabecalho-->
@@ -44,6 +50,7 @@
 
     <div class="d-flex align-items-center container">
 
+        <h1 class="me-auto"><a href=index.html class="logo me-auto"><img alt="" class=img-fluid src="assets\img\Our-cloud-universes_public-cloud.png"></a></h1>
       
       <nav class=navbar id=navbar>
         
@@ -66,7 +73,6 @@
             <li><a href="mailto:administrador@cybernubes.com.br" id="mail" target="_blank" class="scrollto nav-link">Contato</a></li>
           </ul>
 
-        <i class="bi bi-list mobile-nav-toggle"></i>
         <div class="hidden overlay"></div>
       
       </nav>
