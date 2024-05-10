@@ -2,7 +2,29 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background-color: #f4f5fa;
+  
+        /* Estilos padrão para telas maiores */
+        @media screen and (min-width: 769px) {
+            .container {
+                width: 80%;
+            }
+        }
+
+      /* Estilos para telas menores que 768px (por exemplo, tablets e celulares em modo paisagem) */
+      @media screen and (max-width: 768px) {
+        .container {
+          width: 90%;
+        }
+      }
+
+      /* Estilos para telas menores que 576px (por exemplo, celulares em modo retrato) */
+      @media screen and (max-width: 576px) {
+        .container {
+          width: 100%;
+        }
+      }
 }
+
 a.details-link{
   color:#37517e;
   font-size: 12px !important;
@@ -281,26 +303,6 @@ h1, h2, h3, h4, h5, h6 {
   left: 100%;
   visibility: visible;
 }
-        /* Estilos padrão para telas maiores */
-        @media screen and (min-width: 769px) {
-            .container {
-                width: 80%;
-            }
-        }
-
-      /* Estilos para telas menores que 768px (por exemplo, tablets e celulares em modo paisagem) */
-      @media screen and (max-width: 768px) {
-        .container {
-          width: 90%;
-        }
-      }
-
-      /* Estilos para telas menores que 576px (por exemplo, celulares em modo retrato) */
-      @media screen and (max-width: 576px) {
-        .container {
-          width: 100%;
-        }
-      }
 
 /**
 * Mobile Navigation 
