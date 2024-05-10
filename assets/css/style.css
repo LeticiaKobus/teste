@@ -744,6 +744,8 @@ section {
   transition: all 0.4s;
   width:350px;
   height:250px;
+  display: block; /* Define a imagem como um bloco para poder usar margin: auto; */
+  margin: auto; /* Define margens automáticas para centralizar a imagem */
 }
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
