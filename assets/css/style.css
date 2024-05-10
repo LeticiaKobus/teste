@@ -774,7 +774,7 @@ section {
 }
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
-  position: "relative";
+  position: relative;
 }
 .portfolio .portfolio-item .portfolio-img img {
   transition: all 0.4s;
