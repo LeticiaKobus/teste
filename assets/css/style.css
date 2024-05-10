@@ -1204,3 +1204,9 @@ marquee {
   padding-bottom: 10px;
   color: #0068b5;
 }
+
+@media screen and (max-width: 768px){
+  .icon-bar{
+    
+  }
+}
