@@ -404,6 +404,12 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#hero {
+  max-width: 100%;
+  background-image: url("https://img.freepik.com/fotos-gratis/fundo_53876-32170.jpg?w=740&t=st=1715320733~exp=1715321333~hmac=36c948573e7fc67d7a9b865d527df1081a57790bc3c63c829b310c887b49d562");
+  background-repeat: no-repeat;
+  height: auto;
+}
 
 #hero .container {
   padding-top: 72px;
