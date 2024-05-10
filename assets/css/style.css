@@ -1,4 +1,9 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  background-color: #f4f5fa;
 
+}
 #dov {
   display: flex;
   justify-content: center;
