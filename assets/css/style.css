@@ -3,26 +3,6 @@ body {
   color: #444444;
   background-color: #f4f5fa;
 
-  /* Estilos padrão para telas maiores */
-  /*   @media screen and (min-width: 769px) {
-            .container {
-                width: 80%;
-            }
-        }
-
-      /* Estilos para telas menores que 768px (por exemplo, tablets e celulares em modo paisagem) */
-  /*  @media screen and (max-width: 768px) {
-        .container {
-          width: 90%;
-        }
-      }
-
-      /* Estilos para telas menores que 576px (por exemplo, celulares em modo retrato) */
-  /*  @media screen and (max-width: 576px) {
-        .container {
-          width: 100%;
-        }
-      } */
 }
 #dov {
   display: flex;
@@ -74,18 +54,7 @@ h6 {
   color: white;
   font-size: 20px;
 }
-/* .icon-bar #mail img {
-  width: 20px;
-}
-.icon-bar #discord img {
-  width: 20px;
-}
-.icon-bar #instagram img {
-  width: 20px;
-}
-.icon-bar #linkedin img {
-  width: 20px;
-} */
+
 .icon-bar #mail {
   background-color: #db4437;
 }
@@ -321,99 +290,6 @@ h6 {
   visibility: visible;
 }
 
-/**
-* Mobile Navigation 
-*/
-/*
-.mobile-nav-toggle {
-  color: #fff;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-}
-.mobile-nav-toggle.bi-x {
-  color: #fff;
-}
-
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-}
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: #0068b5;
-  transition: 0.3s;
-  z-index: 999;
-}
-.navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  border-radius: 10px;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
-.navbar-mobile a, .navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #0068b5;
-}
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #47b2e4;
-}
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
-  margin: 15px;
-  color: #0068b5;
-}
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #47b2e4;
-}
-.navbar-mobile .dropdown > .dropdown-active {
-  display: block;
-}
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -511,85 +387,7 @@ h6 {
   color: #47b3e4;
   border-color: #47b3e4;
 }
-@media (max-width: 991px) {
-  #hero .hero-socials {
-    justify-content: center;
-  }
-}
 
-/*@media (min-width:992px){
-  #hero {
-    height: 100vh;
-    text-align: center;
-  }
-  #hero .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero .hero-img {
-    text-align: center;
-  }
-  #hero .hero-img img {
-    width: 50%;
-  }
-}*/
-@media (max-width: 991px) {
-  #hero {
-    height: 100vh;
-    text-align: center;
-  }
-  #hero .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero .hero-img {
-    text-align: center;
-  }
-  #hero .hero-img img {
-    width: 50%;
-  }
-}
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero .hero-img img {
-    width: 70%;
-  }
-}
-@media (max-width: 575px) {
-  #hero .hero-img img {
-    width: 80%;
-  }
-  #hero .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-}
-
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -829,10 +627,6 @@ section {
   opacity: 1;
 }
 
-@media (min-width: 376px) and (max-width: 767px) {
-  .portfolio-item {
-    margin-bottom: 30px;
-  }
   .portfolio-img {
     width: fit-content;
   }
@@ -1015,12 +809,7 @@ section {
   font-style: italic;
   color: #36517e;
 } */
-@media (min-width: 319px) and (max-width: 767px) {
-  .team .member {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-  }
+
   .team .member .member-info {
     padding: 0 0 10px 10px;
     width: 100%;
@@ -1202,22 +991,6 @@ section {
 .contact .php-email-form button[type="submit"]:hover {
   background: #209dd8;
 }
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -1228,11 +1001,7 @@ section {
   min-height: 40px;
   margin-top: 72px;
 }
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 68px;
-  }
-}
+
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
@@ -1426,41 +1195,6 @@ section {
   background: #474747;
   color: #888;
   font-size: 14px;
-}
-
-@media (max-width: 768px) {
-  #footer .footer-bottom {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  #footer .copyright,
-  #footer .credits {
-    text-align: center;
-    float: none;
-  }
-  #footer .credits {
-    padding-top: 4px;
-  }
-  #footer #last-br {
-    display: none;
-  }
-}
-@media (max-width: 1440px) {
-  iframe {
-    max-width: 100%;
-  }
-}
-@media (max-width: 767px) {
-  iframe {
-    max-width: 100%;
-    width: 100%;
-  }
-}
-@media (max-width: 420px) {
-  iframe {
-    max-width: 100%;
-    width: 100%;
-  }
 }
 
 marquee {
