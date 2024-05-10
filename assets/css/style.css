@@ -407,6 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   max-width: 100%;
   background-image: url("assets/img/logo-background000.png");
+  backgroud-color: #ffffffe1;
   background-repeat: no-repeat;
   height: auto;
 }
