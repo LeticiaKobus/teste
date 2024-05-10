@@ -291,13 +291,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Estilos específicos para diferentes tamanhos de tela */
-@media screen and (max-width: 768px) {
-    /* Estilos para telas menores, como smartphones */
-    header {
-        padding: 10px;
-    }
-
 /**
 * Mobile Navigation 
 */
