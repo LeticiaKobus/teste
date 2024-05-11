@@ -1205,8 +1205,8 @@ marquee {
   color: #0068b5;
 }
 
-@media screen and (max-width: 768px){
-  .icon-bar{
-    
+@media screen and (min-width: 480px){
+  .container {
+    display: block;
   }
 }
